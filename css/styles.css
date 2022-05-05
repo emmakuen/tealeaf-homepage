@@ -1,0 +1,130 @@
+/* 
+
+--- 1. TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+Font-weights
+
+- Line heights
+Default: 1
+
+--- 2. COLORS
+- Primary: #b76538
+
+- Tints: #f8f0eb
+- Shades:
+- Accents: 
+- Greys:
+#555 
+#333
+
+--- 3. SHADOWS
+
+
+--- 4. BORDER RADIUS
+
+
+--- 5. WHITESPACE
+- Spacing (px)
+2 / 4 / 8/ 12 / 16 / 24 / 32 / 48 / 64 / 80 , 96
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #b76538;
+    --primary-ghost: #f8f0eb;
+    --gray: #555;
+    --dark-gray: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 10px / 16px = 62.5% */
+    /* Percentage of user's browser font settings */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: var(--dark-gray);
+}
+
+.section-hero {
+    background-color: var(--primary-ghost);
+    padding: 9.6rem 0;
+}
+
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 9.6rem;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.heading-primary {
+    font-size: 5.2rem;
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+}
+
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+    background-color: #a55b32;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+    background-color: #fff;
+    color: var(--gray);
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+    background-color: var(--primary-ghost);
+    box-shadow: inset 0 0 0 3px #fff;
+
+}
+
+.margin-right-sm {
+    margin-right: 1.6rem !important;
+}
