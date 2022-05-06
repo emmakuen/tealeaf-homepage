@@ -10,10 +10,10 @@ Font-weights
 Default: 1
 
 --- 2. COLORS
-- Primary: #b76538
+- Primary: #e96444
 
-- Tints: #f8f0eb
-- Shades:
+- Tints: #fff0e6
+- Shades: #e46203
 - Accents: 
 - Greys:
 #555 
@@ -31,11 +31,12 @@ Default: 1
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --primary: #b76538;
-    --primary-ghost: #f8f0eb;
+    --primary: #fd6d03;
+    --primary-dark: #e46203;
+    --primary-ghost: #fff0e6;
     --gray: #555;
     --dark-gray: #333;
 }
@@ -53,7 +54,7 @@ html {
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     line-height: 1;
     font-weight: 400;
     color: var(--dark-gray);
@@ -99,6 +100,7 @@ body {
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s;
+    font-weight: 600;
 }
 
 .btn--full:link,
@@ -109,7 +111,7 @@ body {
 
 .btn--full:hover,
 .btn--full:active {
-    background-color: #a55b32;
+    background-color: var(--primary-dark);
 }
 
 .btn--outline:link,
@@ -127,4 +129,36 @@ body {
 
 .margin-right-sm {
     margin-right: 1.6rem !important;
+}
+
+.customers {
+    display: flex;
+    margin-top: 8rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.customer-imgs {
+    display: flex;
+}
+
+.customer-imgs img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    border: 3px solid var(--primary-ghost);
+}
+
+.customer-imgs img:not(:last-child) {
+    margin-right: -1.6rem;
+}
+
+.customer-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.customer-text span {
+    color: var(--primary-dark);
+    font-weight: 700;
 }
