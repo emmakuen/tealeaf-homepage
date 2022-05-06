@@ -59,7 +59,7 @@ Tea 1: Powdered Green Matcha
 - Liquid: Slightly bright green color
 - Leaves: Mid-sized, greenish, and soft twigs
 
-Tea 2: Avocado Salad
+Tea 2: Rishi Tea
 
 - Harvest: Late April
 - Harvesting Method: Handpicked from traditional shaded tea fields

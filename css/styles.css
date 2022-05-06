@@ -132,3 +132,79 @@
     filter: brightness(0);
     opacity: 50%;
 }
+
+/* ********************************************************** */
+/* ------------------ TEAS SECTION -------------------- */
+.section-teas {
+    padding: 9.6rem 0;
+}
+
+.tea {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: var(--default-radius);
+    overflow: hidden;
+}
+
+.tea-img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: 50% 70%;
+}
+
+.tea-tags {
+    margin-bottom: 1.6rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.tea-tag {
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #ca5702;
+    color: #fff;
+    letter-spacing: var(--letter-spacing-md);
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.tag--leaves {
+    background-color: #4f9749;
+}
+
+.tag--limited {
+    background-color: rgb(255, 217, 0);
+    color: #333;
+}
+
+.tea-title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: var(--margin-sm);
+}
+
+.tea-attributes {
+    list-style: none;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tea-content {
+    padding: var(--margin-md);
+    padding-top: 3.2rem;
+}
+
+.tea-attributes li {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.tea-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: var(--primary);
+}
