@@ -35,7 +35,7 @@ Approve your monthly tea package plan: Once per month, approve the tea package p
 
 Receive your tea at convenient time: Best delivery services in town will ship your tea each weak, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
 
-### TeaLeaf teas work with any meals
+### TeaLeaf teas work with any diets
 
 Vegetarian
 Vegan
