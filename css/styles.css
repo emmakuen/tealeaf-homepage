@@ -103,3 +103,32 @@
 .step-img {
     width: 35%;
 }
+
+
+/* ********************************************************** */
+/* ------------------ FEATURED SECTION -------------------- */
+
+.section-featured {
+    padding: var(--margin-md) 0 3.2rem 0;
+}
+
+.heading-featured {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-md);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: var(--margin-sm);
+    color: #777;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}

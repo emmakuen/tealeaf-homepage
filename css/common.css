@@ -48,8 +48,9 @@ Default: 9px
     --line-height-paragraph: 1.6;
     --letter-spacing-sm: 0.5px;
     --letter-spacing-md: 0.75px;
-    --margin-big: 9.6rem;
+    --margin-lg: 9.6rem;
     --margin-md: 4.8rem;
+    --margin-sm: 2.4rem;
 }
 
 * {
@@ -81,7 +82,7 @@ body {
 
 .grid {
     display: grid;
-    row-gap: var(--margin-big);
+    row-gap: var(--margin-lg);
     column-gap: var(--margin-md);
 }
 
@@ -116,7 +117,7 @@ body {
 
 .heading-secondary {
     font-size: 4.4rem;
-    margin-bottom: var(--margin-big);
+    margin-bottom: var(--margin-lg);
 }
 
 .subheading {
