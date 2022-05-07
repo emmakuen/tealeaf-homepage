@@ -86,6 +86,10 @@ body {
     column-gap: var(--margin-md);
 }
 
+.grid:not(:last-child) {
+    margin-bottom: var(--margin-lg);
+}
+
 .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
 }
@@ -180,4 +184,31 @@ body {
 
 .centered-text {
     text-align: center;
+}
+
+.list {
+    list-style: none;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.list strong {
+    text-transform: uppercase;
+    color: var(--primary-dark);
+    letter-spacing: var(--letter-spacing-md);
+    font-weight: 600;
+}
+
+.list-icon {
+    width: 3rem;
+    height: 3rem;
+    color: var(--primary);
 }
