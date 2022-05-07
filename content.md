@@ -98,10 +98,10 @@ Complete: $249 per month
 
 [Photos of customers included]
 
-The taste of the pyramid bags is so much nicer than normal tea bags and I can't see me changing my thoughts any time soon. (Dave Bryson)
-These lovely products may help you and bring you to another level!! I am having the tea anytime i feel depressed… since I’ve been working from home for a period, these comforting products really can help you out! (Ben Hadley)
-TeaLeaf is a life saver! The smell is roof raising. The tin is so attractive on my shelf. And then there is the tea. It has these lovely fruity blackberry tones mixed into the traditional Earl Grey. Tea lovers will appreciate the high quality of these tea bags. (Steve Miller)
-I got TeaLeaf for the whole family, and it frees up so much time! Plus, everything is organic and without plastic. (Hannah Smith)
+The taste of the pyramid bags is so much nicer than normal tea bags and I can't see me changing my thoughts any time soon. (Brian James)
+These lovely products may help you and bring you to another level!! I am having the tea anytime i feel depressed… since I’ve been working from home for a period, these comforting products really can help you out! (Andrew Hadley)
+TeaLeaf is a life saver! The smell is roof raising. The tin is so attractive on my shelf. And then there is the tea. It has these lovely fruity blackberry tones mixed into the traditional Earl Grey. Tea lovers will appreciate the high quality of these tea bags. (Edward Anderson)
+I got TeaLeaf for the whole family, and it frees up so much time! Plus, everything is organic and without plastic. (Helena Steele)
 
 ### Section with logos of featured publications [see images]
 
