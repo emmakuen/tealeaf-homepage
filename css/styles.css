@@ -32,6 +32,13 @@
     transition: 0.3s;
 }
 
+.main-nav-link.text:focus {
+    outline: none;
+    box-shadow: -1rem 1.2rem 0px -7px #feae75, 1rem 1.2rem 0px -7px #feae75 !important;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+
 .main-nav-link:hover,
 .main-nav-link:active {
     color: var(--primary-dark);
@@ -202,10 +209,14 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     box-shadow: var(--card-shadow);
-    height: 50rem;
     border-radius: var(--default-radius);
     background-image: linear-gradient(to right bottom, #fd8a35, var(--primary));
     overflow: hidden;
+}
+
+.cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(255, 255, 255, 0.418) !important;
 }
 
 .cta-textbox {
@@ -215,7 +226,7 @@
 }
 
 .cta .heading-secondary {
-    color: #4c2101;
+    color: inherit;
     margin-bottom: 3.2rem;
 }
 
@@ -236,4 +247,36 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 3.2rem;
     row-gap: var(--margin-sm);
+}
+
+.cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border: none;
+    background-color: var(--primary-ghost);
+    border-radius: var(--default-radius);
+    box-shadow: var(--input-shadow);
+    color: inherit;
+}
+
+.cta-form input::placeholder {
+    color: #aaa;
+}
+
+.cta-form select {
+    font-family: inherit;
+}
+
+.cta-form button {
+    font-family: inherit;
 }
