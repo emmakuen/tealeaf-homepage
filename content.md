@@ -119,10 +119,12 @@ Create account
 Sign in
 iOS app
 Android app
+
 About TeaLeaf
 For Business
 Partners
 Careers
+
 Recipe directory
 Help center
 Privacy & terms

@@ -280,3 +280,11 @@
 .cta-form button {
     font-family: inherit;
 }
+
+
+/* ********************************************************** */
+/* ------------------ FOOTER SECTION -------------------- */
+
+.footer {
+    padding: var(--margin-lg) 0;
+}
