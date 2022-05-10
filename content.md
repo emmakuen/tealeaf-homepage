@@ -67,11 +67,11 @@ Tea 2: Rishi Tea
 - Liquid: Slightly dark green color
 - Leaves: Greenish and soft twigs with a bit of added Matcha powder
 
-### We offer a free sample tea
+### We offer some free sample tea
 
 [Create simple form for users to sign up]
 
-Premium and flavory teas are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
+Premium and flavory tea is waiting for you. Start drinking high quality tea today. You can cancel or pause anytime. And the first order is on us!
 
 ### We have 2 pricing plans
 

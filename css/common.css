@@ -51,6 +51,7 @@ Default: 9px
     --margin-lg: 9.6rem;
     --margin-md: 4.8rem;
     --margin-sm: 2.4rem;
+    --card-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 }
 
 * {

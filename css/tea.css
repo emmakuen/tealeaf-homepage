@@ -1,0 +1,102 @@
+/* ********************************************************** */
+/* ------------------ TEA SECTION -------------------- */
+.section-tea {
+    padding: 9.6rem 0;
+}
+
+.tea {
+    box-shadow: var(--card-shadow);
+    border-radius: var(--default-radius);
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.tea:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.tea-img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: 50% 70%;
+}
+
+.tea-tags {
+    margin-bottom: 1.6rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.tea-tag {
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #ca5702;
+    color: #fff;
+    letter-spacing: var(--letter-spacing-md);
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.tag--leaves {
+    background-color: #4f9749;
+}
+
+.tag--limited {
+    background-color: #ffd43b;
+    color: #333;
+}
+
+.tea-title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: var(--margin-sm);
+}
+
+.tea-attributes {
+    list-style: none;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tea-content {
+    padding: var(--margin-md);
+    padding-top: 3.2rem;
+}
+
+.tea-attributes li {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.tea-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: var(--primary);
+}
+
+.all-tea {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.link:link,
+.link:visited {
+    display: inline-block;
+    color: var(--primary);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid currentColor;
+    transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+    color: var(--primary-dark);
+    border-bottom: 1px solid transparent;
+}
