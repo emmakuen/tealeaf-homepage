@@ -12,11 +12,6 @@ Heading: 1.05
 Paragraph: 1.6
 
 --- 2. COLORS
-- Primary: #fd6d03
-
-- Tints: #fff0e6
-- Shades: #e46203
-- Accents: 
 - Greys:
 #ddd
 #ccc
@@ -40,10 +35,13 @@ Default: 9px
 
 
 :root {
-    --primary: #fd6d03;
-    --primary-dark: #e46203;
-    --primary-ghost: #fff0e6;
-    --primary-ghost-2: #ffe2cd;
+    --primary: #db8c64;
+    --primary-50: #db8c6485;
+    --primary-75: #db8c6485;
+    --primary-dark: #be734d;
+    --highlight-color: #e7b757;
+    --primary-ghost: #e3eee0;
+    --primary-ghost-2: #cdd0b2;
     --gray: #555;
     --dark-gray: #333;
     --default-radius: 9px;
@@ -67,7 +65,7 @@ Default: 9px
 
 *:focus {
     outline: none;
-    box-shadow: 0 0 0 0.8rem #fd6b0380 !important;
+    box-shadow: 0 0 0 0.8rem var(--primary-50) !important;
     border-radius: var(--default-radius);
 }
 

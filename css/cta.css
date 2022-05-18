@@ -1,0 +1,81 @@
+/* ********************************************************** */
+/* ------------------ CTA SECTION -------------------- */
+.section-cta {
+    padding: var(--margin-lg) 0;
+}
+
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: var(--card-shadow);
+    border-radius: var(--default-radius);
+    background-image: linear-gradient(to right bottom, var(--primary-50), var(--primary-75));
+    overflow: hidden;
+}
+
+.cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(255, 255, 255, 0.418) !important;
+}
+
+.cta-textbox {
+    color: #422a1e;
+    padding: 6.4rem;
+    padding-top: var(--margin-md);
+}
+
+.cta .heading-secondary {
+    color: inherit;
+    margin-bottom: 3.2rem;
+}
+
+.cta-text {
+    font-size: 1.8rem;
+    line-height: var(--line-height-paragraph);
+    margin-bottom: var(--margin-md);
+}
+
+.cta-imgbox {
+    background-image: linear-gradient(to right bottom, var(--primary-50), var(--primary-75)), url('../img/drinking.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cta-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.2rem;
+    row-gap: var(--margin-sm);
+}
+
+.cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border: none;
+    background-color: var(--primary-ghost);
+    border-radius: var(--default-radius);
+    box-shadow: var(--input-shadow);
+    color: inherit;
+}
+
+.cta-form input::placeholder {
+    color: #aaa;
+}
+
+.cta-form select {
+    font-family: inherit;
+}
+
+.cta-form button {
+    font-family: inherit;
+}

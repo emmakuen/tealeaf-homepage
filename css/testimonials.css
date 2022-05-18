@@ -1,0 +1,58 @@
+/* ********************************************************** */
+/* ------------------ TESTIMONIALS SECTION -------------------- */
+
+.section-testimonials {
+    background-color: var(--primary-ghost);
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+}
+
+.testimonials-container {
+    padding: var(--margin-lg);
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: var(--margin-md);
+    column-gap: 8rem;
+}
+
+.testimonials img {
+    width: 64px;
+    border-radius: 50%;
+    margin-bottom: 1.6rem;
+}
+
+.testimonials blockquote p {
+    font-size: 1.8rem;
+    line-height: var(--line-height-paragraph);
+    margin-bottom: 1.2rem;
+}
+
+.testimonials figcaption {
+    font-size: 1.6rem;
+    color: #6f6f6f;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+    align-content: center;
+}
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
