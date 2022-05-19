@@ -45,7 +45,7 @@
 }
 
 .tag--limited {
-    background-color: #ffd43b;
+    background-color: var(--highlight-color);
     color: #333;
 }
 
