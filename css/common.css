@@ -73,6 +73,7 @@ html {
     /* 10px / 16px = 62.5% */
     /* Percentage of user's browser font settings */
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -80,6 +81,7 @@ body {
     line-height: 1;
     font-weight: 400;
     color: var(--dark-gray);
+    overflow-x: hidden;
 }
 
 /* ********************************************************** */
