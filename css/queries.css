@@ -144,6 +144,7 @@
         justify-content: center;
         transition: all 0.5s ease-in;
         transform: translateX(100%);
+        z-index: 10;
 
 
         /* Hide the navigation */
@@ -173,6 +174,10 @@
     .main-nav-link:link,
     .main-nav-link:visited {
         font-size: 3rem;
+    }
+
+    .nav-open .btn-mobile-nav {
+        z-index: 100;
     }
 
     .nav-open .icon-mobile-nav[name='close-outline'] {
