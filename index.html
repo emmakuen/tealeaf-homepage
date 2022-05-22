@@ -94,8 +94,12 @@
                     </div>
                 </div>
                 <div class="hero-imagebox">
-                    <img src="img/hero.webp" alt="Woman enjoying a cup of tea, black tea in a cup, flower tea in a pot"
-                        class="hero-img">
+                    <picture>
+                        <source srcset="img/hero.webp" type="image/webp" />
+                        <source srcset="img/hero-min.png" type="image/png" />
+                        <img src="img/hero-min.png"
+                            alt="Woman enjoying a cup of tea, black tea in a cup, flower tea in a pot" class="hero-img">
+                    </picture>
                 </div>
             </div>
         </section>
