@@ -6,6 +6,10 @@
     padding: var(--margin-md) 0 var(--margin-lg) 0;
 }
 
+.sticky .section-hero {
+    margin-top: 9.6rem;
+}
+
 .hero {
     max-width: 130rem;
     margin: 0 auto;
