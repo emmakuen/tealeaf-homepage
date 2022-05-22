@@ -134,7 +134,9 @@
     /* navigation */
     .main-nav {
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.95);
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         top: 0;
         left: 0;
         width: 100%;

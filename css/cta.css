@@ -36,7 +36,7 @@
 }
 
 .cta-imgbox {
-    background-image: linear-gradient(to right bottom, var(--primary-50), var(--primary-75)), url('../img/drinking.jpg');
+    background-image: linear-gradient(to right bottom, var(--primary-50), var(--primary-75)), url('../img/drinking.webp');
     background-size: cover;
     background-position: center;
 }

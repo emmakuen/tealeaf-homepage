@@ -2,7 +2,7 @@
 
 ## About TeaLeaf
 
-We are a company located in Japan, the center for green tea production since ancient times. We stand with our name for superior category green tea which is obtained directly from trusted tea farmers directly from Japan. The tea is solely produced by conventional harvesting and traditional processing methods. No middleman, no extra costs for you. All of our teas come from well-known tea farmers and producers. In our store, we almost only have the first tea harvest in spring (First Flush tea) and most of our teas come in limited quantities.
+TeaLeaf is a company located in Japan, the center for green tea production since ancient times. We stand with our name for superior category green tea which is obtained directly from trusted tea farmers directly from Japan. The tea is solely produced by conventional harvesting and traditional processing methods. No middleman, no extra costs for you. All of our teas come from well-known tea farmers and producers. In our store, we almost only have the first tea harvest in spring (First Flush tea) and most of our teas come in limited quantities.
 
 ## Branding
 

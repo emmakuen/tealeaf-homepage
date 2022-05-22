@@ -39,6 +39,7 @@ const observer = new IntersectionObserver(
     root: null,
     // when it's not in the viewport
     threshold: 0,
+    // top offset
     rootMargin: "-80px",
   }
 );
